@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Regx Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>New user sign Up</h1>
+    <form>
+      <input type="text" name="username" placeholder="Username" />
+      <p>Username must alphanumeric and contain 5-12 characters</p>
+
+      <input type="text" name="email" placeholder="Email" />
+      <p>Email must be a valid address, eg me@mydomain.com</p>
+
+      <input type="password" name="password" placeholder="Password" />
+      <p>
+        Password must be alphanumeric (@._and- are also allowed) and be 8-20
+        characters
+      </p>
+
+      <input type="text" name="telephone" placeholder="Telephone" />
+      <p>Telephone must be a valid Uk telephone number (11 digits)</p>
+
+      <input type="text" name="slug" placeholder="profile slug" />
+      <p>
+        slug must contain only lowercase letter number and byphens and be 8 - 20
+        characters
+      </p>
+    </form>
+
+    <script type="text/javascript" src="validation.js"></script>
+  </body>
+</html>
